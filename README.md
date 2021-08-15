@@ -1,3 +1,13 @@
+The project uses cryptonator api, fusioncharts and firebase auth.
+After logging/sign up, a request to the cryptonator api is made which gives realtime price of bitcoin.
+This price is feed to a ticker graph made with fusionchart.
+Also the form page posts a request and displays its response to any url
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
