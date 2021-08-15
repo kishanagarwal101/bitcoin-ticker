@@ -1,0 +1,43 @@
+.mainApp {
+  position: absolute;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(0, 129, 90);
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.companyName {
+  position: absolute;
+  left: 10px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: whitesmoke;
+}
+.appBarRight {
+  position: absolute;
+  right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+}
+.link {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.link:hover {
+  color: rgb(255, 255, 255);
+}
+.logoutButton {
+  font-size: 20px;
+  background-color: #163c4a !important;
+}

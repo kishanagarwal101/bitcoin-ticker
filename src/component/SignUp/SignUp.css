@@ -1,0 +1,45 @@
+.mainDiv {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #006341, #163c4a);
+}
+.signUpCard {
+  width: 50%;
+  height: 70%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.233);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.705);
+}
+.signUpCard > h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}
+.inputTag {
+  background-color: #e1fff7;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+  min-width: 240px;
+}
+.changePage {
+  font-size: 20px;
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.changePage > a {
+  color: bisque;
+  text-decoration: none;
+}

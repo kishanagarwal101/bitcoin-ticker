@@ -1,0 +1,10 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #006341, #163c4a);
+}
+.graph {
+  width: 100%;
+  position: absolute;
+  top: 50px;
+}
